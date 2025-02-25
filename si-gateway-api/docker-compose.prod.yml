@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  user-api:
+    build: 
+      dockerfile: Dockerfile
+      context: .
+      args:
+        - NODE_ENV=production
+    ports:
+      - "5001:5001"
+    environment:
+      - NODE_ENV=production
+

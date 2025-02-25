@@ -1,0 +1,36 @@
+{
+  "name": "digiooz",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "engines": {
+    "node": "18.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://imran12357:siAPI12357@gitlab.com/sell-it1/digiooz.git"
+  },
+  "keywords": [],
+  "author": "Syed Mubariz Uddin Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sell-it1/digiooz/issues"
+  },
+  "homepage": "https://gitlab.com/sell-it1/digiooz#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

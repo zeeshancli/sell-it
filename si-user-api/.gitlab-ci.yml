@@ -1,0 +1,13 @@
+stages:          # List of stages for jobs, and their order of execution
+  - test
+
+tests:
+  stage: test
+  image: node:18.14.0
+  script:
+    - npm test
+  environment:
+    name: dev
+
+
+

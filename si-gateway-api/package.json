@@ -1,0 +1,46 @@
+{
+  "name": "si-gateway-api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "engines": {
+    "node": ">=18.14.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "tsc && node dist/index.js",
+    "dev": "tsc && ( tsc -w & ) && nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://imran12357:siAPI12357@gitlab.com/sell-it1/si-gateway-api.git"
+  },
+  "keywords": [],
+  "author": "imran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sell-it1/si-gateway-api/issues"
+  },
+  "homepage": "https://gitlab.com/sell-it1/si-gateway-api#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.11.19",
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^2.3.0",
+    "@apollo/server": "^4.3.2",
+    "@apollo/server-plugin-landing-page-graphql-playground": "^4.0.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
